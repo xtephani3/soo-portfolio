@@ -36,6 +36,7 @@ function WorkSection() {
                     alt={project.title}
                     className="h-full z-10 relative w-full object-contain transition duration-500 group-hover:scale-105"
                   />
+                  
 
                   <div className='bg-red-500 size-full absolute top-0 left-0 '
                     style={{
