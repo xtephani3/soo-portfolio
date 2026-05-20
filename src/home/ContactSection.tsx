@@ -1,3 +1,33 @@
+import {
+  RiInstagramFill,
+  RiLinkedinFill,
+  RiTwitterXFill,
+  RiWhatsappFill,
+} from '@remixicon/react'
+
+const socialLinks = [
+  {
+    href: 'https://www.instagram.com/soo_samuel1',
+    label: 'Instagram',
+    Icon: RiInstagramFill,
+  },
+  {
+    href: '#',
+    label: 'LinkedIn',
+    Icon: RiLinkedinFill,
+  },
+  {
+    href: '#',
+    label: 'X',
+    Icon: RiTwitterXFill,
+  },
+  {
+    href: 'https://wa.me/2348082948221',
+    label: 'WhatsApp',
+    Icon: RiWhatsappFill,
+  },
+]
+
 function ContactSection() {
   return (
     <section
@@ -24,16 +54,17 @@ function ContactSection() {
             </span>
             soosamuel04@gmail.com
           </a>
-          <div className="flex gap-3 text-sm font-semibold text-white/70">
-            <a className="transition hover:text-[#f3c175]" href="#">
-              Instagram
-            </a>
-            <a className="transition hover:text-[#f3c175]" href="#">
-              LinkedIn
-            </a>
-            <a className="transition hover:text-[#f3c175]" href="#">
-              X/Twitter
-            </a>
+          <div className="flex flex-wrap gap-3">
+            {socialLinks.map(({ href, label, Icon }) => (
+              <a
+                href={href}
+                aria-label={label}
+                className="grid size-14 place-items-center rounded-full bg-white text-[#151827] transition duration-300 hover:-translate-y-1 hover:bg-[#f3c175] hover:shadow-lg hover:shadow-[#f3c175]/20"
+                key={label}
+              >
+                <Icon size={25} aria-hidden="true" />
+              </a>
+            ))}
           </div>
         </div>
       </div>

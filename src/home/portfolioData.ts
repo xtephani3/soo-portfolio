@@ -3,6 +3,7 @@ import projectTwo from '../assets/projects/project-2.jpeg'
 import projectThree from '../assets/projects/project-3.jpeg'
 import projectFour from '../assets/projects/project-4.jpeg'
 import projectFive from '../assets/projects/project-5.jpeg'
+import projectSix from '../assets/projects/project-6.jpeg'
 
 export const projects = [
   {
@@ -13,7 +14,7 @@ export const projects = [
     category: 'Brand Identity',
     tools: ['Branding', 'Logo Design'],
     description:
-      'A bold visual system shaped around clarity, emotional connection, and memorable brand expression.',
+      'A clean and elegant promotional flyer created for a luxury fashion accessories brand. The design combines minimal typography, balanced whitespace, and monochrome aesthetics to emphasize sophistication, timelessness, and premium product appeal.',
   },
   {
     image: projectTwo,
@@ -23,7 +24,7 @@ export const projects = [
     category: 'Poster Design',
     tools: ['Poster', 'Print Design'],
     description:
-      'A minimal composition exploring visual hierarchy, strong contrast, and expressive layout direction.',
+      'A vibrant food advertisement designed to showcase a local kitchen brand and its variety of meals. The layout focuses on appetite appeal through rich food imagery, bold color contrast, and structured information hierarchy for easy readability and engagement.',
   },
   {
     image: projectThree,
@@ -31,9 +32,9 @@ export const projects = [
     client: 'Client Name',
     year: '2026',
     category: 'Packaging',
-    tools: ['Packaging', 'PixelLab'],
+    tools: ['Packaging', 'Social Media'],
     description:
-      'A clean packaging concept designed to feel modern, tactile, and instantly recognizable.',
+      'A monthly promotional social media design created for a food brand campaign. This concept uses energetic typography, warm tones, and dynamic composition to create excitement while keeping the product as the visual centerpiece.',
   },
   {
     image: projectFour,
@@ -43,7 +44,7 @@ export const projects = [
     category: 'Social Media Design',
     tools: ['Social Media', 'Digital Design'],
     description:
-      'A campaign-ready digital direction built for consistency, rhythm, and scroll-stopping impact.',
+      'A modern menu and pricing design tailored for food businesses. The layout was structured for clarity and easy navigation while maintaining a visually engaging presentation through organized sections, custom typography, and supporting food imagery.',
   },
   {
     image: projectFive,
@@ -51,9 +52,19 @@ export const projects = [
     client: 'Client Name',
     year: '2026',
     category: 'Visual Design',
-    tools: ['Visual Design', 'PixelLab'],
+    tools: ['Visual Design', 'Social Media'],
     description:
-      'A refined visual story combining minimal layouts with strong artistic direction and purpose.',
+      'A beauty service promotional flyer created for a lash brand campaign. The design blends luxury-inspired pink tones, elegant typography, and curated visual framing to communicate femininity, softness, and premium beauty services.',
+  },
+  {
+    image: projectSix,
+    title: 'Wedding Card',
+    client: 'Client Name',
+    year: '2026',
+    category: 'Visual Design',
+    tools: ['Visual Design', 'Print Design'],
+    description:
+      'A traditional wedding invitation design crafted with rich green and gold tones to reflect elegance, celebration, and tradition. The composition combines decorative floral elements with refined typography to create a timeless ceremonial invitation aesthetic.',
   },
 ]
 
