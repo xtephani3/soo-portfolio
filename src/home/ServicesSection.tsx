@@ -30,14 +30,14 @@ function ServicesSection() {
           <div>
             <p className="flex items-center gap-3 text-xs font-bold uppercase tracking-[0.2em] text-[#f3c175]">
               <span className="h-px w-8 bg-[#f3c175]" />
-              My services ?
+              My services 
             </p>
             <h2 className="mt-5 max-w-md text-4xl font-black uppercase leading-[1.05] text-white sm:text-5xl lg:text-6xl">
               What I&apos;m Offering
             </h2>
           </div>
 
-          <p className="max-w-md text-sm leading-7 text-white/62 lg:pt-9">
+          <p className="max-w-md hidden text-sm leading-7 text-white/62 lg:pt-9">
             Focused design services for brands that need clean identity,
             memorable visuals, and digital assets with a clear creative
             direction.
@@ -45,7 +45,7 @@ function ServicesSection() {
 
           <a
             href="#contact"
-            className="inline-flex h-14 items-center justify-center rounded-full bg-[#f3c175] px-8 text-sm font-bold uppercase text-[#151827] transition hover:bg-white lg:mt-6"
+            className="hidden h-14 items-center justify-center rounded-full bg-[#f3c175] px-8 text-sm font-bold uppercase text-[#151827] transition hover:bg-white lg:mt-6"
           >
             All Service
           </a>
@@ -58,9 +58,9 @@ function ServicesSection() {
             </span>
             <span className="mt-5 h-24 w-px bg-white/30" />
             <a
-              href="#about"
-              aria-label="Scroll to about"
-              className="mt-5 grid size-14 place-items-center rounded-full bg-[#f3c175] text-xl font-semibold text-[#151827] transition hover:bg-white"
+              href="#work"
+              aria-label="Scroll to work section"
+              className="mt-5 grid size-14  place-items-center rounded-full bg-[#f3c175] text-xl font-semibold text-[#151827] transition hover:bg-white"
             >
               v
             </a>
@@ -102,7 +102,7 @@ function ServicesSection() {
 
                 <a
                   href="#contact"
-                  className="mt-8 inline-flex items-center gap-7 text-xs font-bold uppercase tracking-[0.06em]"
+                  className="mt-8  hidden items-center gap-7 text-xs font-bold uppercase tracking-[0.06em]"
                 >
                   Read More
                   <span>-&gt;</span>
