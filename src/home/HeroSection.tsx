@@ -36,7 +36,7 @@ function HeroSection() {
 
         <a
           href="#contact"
-          className="rounded-full border border-[#20242a] px-5 py-3 text-sm font-semibold transition hover:bg-[#20242a] hover:text-white"
+          className="rounded-full border border-[#f3c175] px-5 py-3 text-white text-sm font-semibold transition hover:bg-[#20242a] hover:text-white"
         >
           Contact Me
         </a>
