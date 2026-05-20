@@ -30,11 +30,19 @@ function WorkSection() {
               key={`${project.title}-${index}`}
             >
               <a href="#contact" aria-label={`View ${project.title}`}>
-                <div className="aspect-[4/3] overflow-hidden rounded-lg border border-white/10 bg-white/[0.04]">
+                <div className="aspect-[4/3] relative overflow-hidden rounded-lg border border-white/10 bg-white/[0.04]">
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="h-full w-full object-contain transition duration-500 group-hover:scale-105"
+                    className="h-full z-10 relative w-full object-contain transition duration-500 group-hover:scale-105"
+                  />
+
+                  <div className='bg-red-500 size-full absolute top-0 left-0 '
+                    style={{
+                      background: `url(${project.image}) center/cover no-repeat`,
+                      filter: 'blur(20px) brightness(0.7)',
+                      transform: 'scale(1.2)',
+                    }}
                   />
                 </div>
               </a>
