@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://soo-v.vercel.app/sitemap.xml
+Sitemap: https://soo-vi.vercel.app/sitemap.xml
